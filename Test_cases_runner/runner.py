@@ -1,11 +1,10 @@
-from logan_user.User_side_all_feature import User_Side_All_Feature
+from logan_user.user_side_all_feature import User_Side_All_Feature
 from logan_admin.admin_auth import Auth
 import pytest
 
 
 
 class Test_runner:
-
 
     action = User_Side_All_Feature()
     # def test_login_admin(self):
